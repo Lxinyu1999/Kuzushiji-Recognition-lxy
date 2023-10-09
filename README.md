@@ -1,5 +1,10 @@
 # Kuzushiji-Recognition
+
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FLxinyu1999%2FAshiton.github.io%2Fmain%2Fpackage.json&query=license&label=license)
+![images](https://img.shields.io/badge/name-lxy-green)
+
 ![kz](readme_img/kz.png)
+
 This study presents an implementation of a deep learning algorithm for the recognition of Kuzushiji script.
 
 Kuzushiji is a historical cursive script of Japanese that was commonly used prior to the 19th century. 
@@ -11,6 +16,7 @@ Kuzushiji is a historical cursive script of Japanese that was commonly used prio
 Kuzushiji Dataset was made by CODH(Center for Open Data in the Humanities). It consists of 1,086,326 characters and 4,328 types. Each kuzushiji has a unique Unicode corresponding to it. 
 
 ![kz2](readme_img/kz2.png)
+
 📚 You can download the dataset from [here](http://codh.rois.ac.jp/char-shape/book/) 
 
 ## Requirements
