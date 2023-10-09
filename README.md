@@ -1,5 +1,5 @@
 # Kuzushiji-Recognition
-![kz](readme_img\kz.png)
+![kz](readme_img/kz.png)
 This study presents an implementation of a deep learning algorithm for the recognition of Kuzushiji script.
 
 Kuzushiji is a historical cursive script of Japanese that was commonly used prior to the 19th century. 
@@ -10,7 +10,7 @@ Kuzushiji is a historical cursive script of Japanese that was commonly used prio
 ## Datasets
 Kuzushiji Dataset was made by CODH(Center for Open Data in the Humanities). It consists of 1,086,326 characters and 4,328 types. Each kuzushiji has a unique Unicode corresponding to it. 
 
-![kz2](readme_img\kz2.png)
+![kz2](readme_img/kz2.png)
 📚 You can download the dataset from [here](http://codh.rois.ac.jp/char-shape/book/) 
 
 ## Requirements
@@ -24,10 +24,10 @@ Kuzushiji Dataset was made by CODH(Center for Open Data in the Humanities). It c
 I used a combination of some classic models: 
 Cascade RCNN + Multi-head self attention network + CenterNet
 
-![Alt text](readme_img\model1.png)
+![Alt text](readme_img/model1.png)
 
 Use one-stage detection to learn more latent information.
-![Alt text](readme_img\model2.jpg)
+![Alt text](readme_img/model2.jpg)
 ## Run
 
 Install mmdetection
@@ -40,7 +40,7 @@ $ conda env create -f env.yaml
 
 Also try the intro ipynb for visualization of Kuzushiji!
 
-![Alt text](readme_img\image-1.png)
+![Alt text](readme_img/image-1.png)
 
 ### Preprocessing
 
